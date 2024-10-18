@@ -25,6 +25,7 @@ function ListUsers() {
     <div className={styles.wrapper}>
       <header className={styles.header}>
         <h1 className={styles.header__title}>Список пользователей</h1>
+        <span className={styles.header__info}>Найдено {users.length} пользователей</span>
       </header>
       <main className={styles.main}>
         {(filteredUsers.length ? filteredUsers : users).map((item) => (

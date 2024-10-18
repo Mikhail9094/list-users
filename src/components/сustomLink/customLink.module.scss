@@ -1,0 +1,14 @@
+@import "../../scss/variables.scss";
+
+.link {
+  color: $accent;
+  transition: all 0.2s ease;
+}
+
+.link:active {
+  transform: translateY(2px);
+}
+
+.link:visited {
+  text-decoration: none;
+}

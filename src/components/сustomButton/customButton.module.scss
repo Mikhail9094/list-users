@@ -1,0 +1,24 @@
+@import "../../scss/variables.scss";
+
+.button {
+  padding: 5px 15px;
+  width: fit-content;
+  border-radius: 5px;
+
+  color: $secondary-color;
+  background-color: $accent;
+
+  transition: 0.2s all;
+
+  &:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 12px 1px rgba(75, 81, 239, 0.5);
+  }
+
+  &:disabled {
+    background-color: rgb(175, 175, 175);
+    transform: none;
+    box-shadow: none;
+    cursor: auto;
+  }
+}

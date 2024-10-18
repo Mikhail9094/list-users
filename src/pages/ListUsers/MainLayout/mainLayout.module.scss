@@ -1,0 +1,32 @@
+@import "../../../scss/variables.scss";
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 23% 1fr;
+  height: 100lvh;
+
+  .filters {
+    padding: 35px 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    background: $main-color;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+
+    &__title {
+      width: fit-content;
+    }
+  }
+
+  .pages {
+    position: relative;
+    background: $secondary-color;
+  }
+}
